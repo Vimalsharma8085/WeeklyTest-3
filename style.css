@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product-list, .cart {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 45%;
+}
+
+.product-item, .cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+button {
+    margin: 0 5px;
+}
+
+#total {
+    margin-top: 20px;
+    font-weight: bold;
+}
